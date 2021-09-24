@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 2em;
+}
+header {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid black;
+}
+#hero{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+.btn-add{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-add:hover{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-add:focus {
+    outline: none;
+}
+.div-shadow{
+    width: 20em;
+    height: 9em;
+    box-shadow: 0px 0px 10px black;
+    margin: 1em 1em 1em 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1;
+    background-color:black;
+}
+.startgame{
+    width: 6em;
+    height: 1em;
+    font-size:2em;
+    border:none;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius:0.4em;
+    outline: none;
+    transition: all 100ms ease-in;
+    margin-left: 54px;
+    margin-top: 0px;
+}
+.game{
+    font-size:30px;
+    color: white;
+    padding-left: 3px !important;
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline;
+}
+.p1{
+    font-size: 20px;
+    color:white;
+    font-family: 'Martel', serif;
+}
+.p2{
+    font-size: 20px;
+    color:white;
+    font-family: 'Martel', serif;
+}
+.result1{
+    color: white;
+    font-size: 22px;
+}
+.result2{
+    color:white;
+    font-size: 22px;
+}
